@@ -1,1 +1,15 @@
 /* ESTILOS DEL MAIN */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    &__card{
+        background-color: rgb(203, 249, 249);
+        width: 300px;
+        text-align: center;
+        border-radius: 2rem;
+        padding: 1rem;
+    }
+
+}
